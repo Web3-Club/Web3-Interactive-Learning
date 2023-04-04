@@ -1,2 +1,2 @@
-# Learning-Web3-Interactive
-EthBeijing 2023 
+# Web3 Interactive Learning
+## Web3Club & EthBeijing 2023
