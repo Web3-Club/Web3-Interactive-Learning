@@ -6,5 +6,13 @@
 
 ## 项目简介
 
+基于Ethereum 的Web3 互动性学习平台 **助力每个Web3小白成为Web3 Hacker**
+
+  - 能够根据用户不同的学习反应呈现不同的学习路线。
+    - 在聊天窗中实现交互，聊天窗中用户可以执行指定的选项，以此来进入不同的流程。
+  - 通过智能合约 实现：
+    - 课程认证NFT/sbt自动发放，通过一系列合约的交互来实现
+    - 章节通过，或者其他的行为，如参与学习网站贡献、纠错等，可以获得社区代币。
+  - 让更多对Web3领域相关知识感兴趣的朋友，能够为他们提供 一个非常低的学习门槛，真正做到从“0”开始学习Web3。也让其在这个探索的过程中 能接触到一些Web3相关的实例 —— 如 NFT，DAO 
 ## 免责声明
 This project is an open-source project and is intended for learning and research purposes only. The project team shall not be responsible for any legal liability, direct or indirect damages arising from any unauthorized commercial use, abuse or any other form of improper use. By using the open-source code of this project, you acknowledge that you have read and agreed to this disclaimer. 
