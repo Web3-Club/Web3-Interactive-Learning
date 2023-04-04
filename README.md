@@ -15,4 +15,8 @@
     - 章节通过，或者其他的行为，如参与学习网站贡献、纠错等，可以获得社区代币。
   - 让更多对Web3领域相关知识感兴趣的朋友，能够为他们提供 一个非常低的学习门槛，真正做到从“0”开始学习Web3。也让其在这个探索的过程中 能接触到一些Web3相关的实例 —— 如 NFT，DAO 
 ## 免责声明
-This project is an open-source project and is intended for learning and research purposes only. The project team shall not be responsible for any legal liability, direct or indirect damages arising from any unauthorized commercial use, abuse or any other form of improper use. By using the open-source code of this project, you acknowledge that you have read and agreed to this disclaimer. 
+This project is an open-source project and is intended for learning and research purposes only,shall not constitute investment advice, financial advice, trading advice, or any other kind of advice, and you should not treat any of the object content as such.
+
+You alone assume the sole responsibility of evaluating the merits and risks associated with using any information or other content on this website before making any decisions based on such information.
+
+The project team shall not be responsible for any legal liability, direct or indirect damages arising from any unauthorized commercial use, abuse or any other form of improper use. By using the open-source code of this project, you acknowledge that you have read and agreed to this disclaimer. 
