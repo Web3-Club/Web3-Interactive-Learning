@@ -41,7 +41,7 @@
     
 
 ## 项目成员
-[![contrib graph](https://contrib.rocks/image?repo=/Web3-Club/Web3-Interactive-Learning)](https://github.com/Web3-Club/Web3-Interactive-Learning/graphs/contributors)
+[![contrib graph](https://contrib.rocks/image?repo=Web3-Club/Web3-Interactive-Learning)](https://github.com/Web3-Club/Web3-Interactive-Learning/graphs/contributors)
 
 
 ## 免责声明
