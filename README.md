@@ -1,6 +1,6 @@
 # Web3 Interactive Learning
 
-[![mit](https://img.shields.io/github/license/Web3-Club/Web3-Interactive-Learning?style=flat-square)](https://github.com/Web3-Club/Web3-Interactive-Learning/) 
+[![mit](https://img.shields.io/github/license/Web3-Club/Web3-Interactive-Learning?style=flat-square)](https://github.com/Web3-Club/Web3-Interactive-Learning/) [![GitHub stars](https://img.shields.io/github/stars/Web3-Club/Web3-Interactive-Learning.svg?style=social&label=Stars)](https://github.com/Web3-Club/Web3-Interactive-Learning)
 
 ## Web3Club & EthBeijing 2023
 
