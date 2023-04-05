@@ -38,7 +38,10 @@
       19:15 开幕式
       20:30 讨论
       20:40 讨论结束 回住宿
+    
 
+## 项目成员
+[![contrib graph](https://contrib.rocks/image?repo=/Web3-Club/Web3-Interactive-Learning)](https://github.com/Web3-Club/Web3-Interactive-Learning/graphs/contributors)
 
 
 ## 免责声明
