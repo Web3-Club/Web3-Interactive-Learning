@@ -4,7 +4,7 @@
 <img alt="主图" src="https://user-images.githubusercontent.com/76860915/229789325-103fd1d1-def6-4c96-88fa-46fb8f4b5762.png"/>
 
 
-## 项目简介
+## 💬 项目简介
 
 基于Ethereum 的Web3 互动性学习平台 **助力每个Web3小白成为Web3 Hacker**
 
@@ -15,10 +15,10 @@
     - 章节通过，或者其他的行为，如参与学习网站贡献、纠错等，可以获得社区代币。
   - 让更多对Web3领域相关知识感兴趣的朋友，能够为他们提供 一个非常低的学习门槛，真正做到从“0”开始学习Web3。也让其在这个探索的过程中 能接触到一些Web3相关的实例 —— 如 NFT，DAO 
   
-## 效果图展示
+## ✅ 效果图展示
 ### **（实际界面 以最终提交项目时为准）**
 
-### 聊天交互界面
+### 💬 聊天交互界面
 
 <img width="638" alt="436204890f062aaa9bca6c6a35576b5" src="https://user-images.githubusercontent.com/111333575/230032972-9314febc-e317-4d2f-b4a2-23e2e3c5d51a.png">
 
@@ -26,11 +26,11 @@
 <br>
 <br>
 
-### NFT分发界面
+### 🌆 NFT分发界面
 
 <img alt="1261680685917_ pic" height="518" src="https://user-images.githubusercontent.com/76860915/230056557-88d14e30-cb2b-44d3-b036-f12b725eea86.jpg" width="400"/>
 
-## 活动及项目日志
+##  📅 活动及项目日志
 
     2023.04.05
 
