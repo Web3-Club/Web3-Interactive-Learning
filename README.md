@@ -4,7 +4,7 @@
 <img alt="主图" src="https://user-images.githubusercontent.com/76860915/229789325-103fd1d1-def6-4c96-88fa-46fb8f4b5762.png"/>
 
 
-## 💬 项目简介
+## 🔖 项目简介
 
 基于Ethereum 的Web3 互动性学习平台 **助力每个Web3小白成为Web3 Hacker**
 
