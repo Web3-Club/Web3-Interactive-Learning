@@ -43,14 +43,24 @@
 ## 项目成员
 [![contrib graph](https://contrib.rocks/image?repo=Web3-Club/Web3-Interactive-Learning)](https://github.com/Web3-Club/Web3-Interactive-Learning/graphs/contributors)
 
-[烟波]()
+- [烟波](https://github.com/orgs/Web3-Club/people/yanboishere)
+  - 项目策划
+ 
+- [JiceJin](https://github.com/orgs/Web3-Club/people/JiceJin)
+  - 前端
+  - 后端
+  - 智能合约开发
+  - 测试
 
-[JiceJin]()
+- [Azleal](https://github.com/orgs/Web3-Club/people/Azleal)
+  - 后端 
+  - 项目策划
+  - 交互逻辑策划
 
-[Azleal]()
-
-[woHocooL]()
-
+- [woHocooL](https://github.com/orgs/Web3-Club/people/woHocooL)
+  - 文档编辑 
+  - 交互逻辑设计 
+  - 问题设计 
 
 ## 免责声明
 This project is an open-source project and is intended for learning and research purposes only,shall not constitute investment advice, financial advice, trading advice, or any other kind of advice, and you should not treat any of the object content as such.
