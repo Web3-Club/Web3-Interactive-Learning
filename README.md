@@ -46,6 +46,7 @@
 - [烟波](https://github.com/yanboishere)
   
   - 项目策划
+  - 文档编辑
  
 - [JiceJin](https://github.com/JiceJin)
   
