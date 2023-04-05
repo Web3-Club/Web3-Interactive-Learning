@@ -77,5 +77,7 @@ The project team shall not be responsible for any legal liability, direct or ind
 MIT
 
 Built by China Web3-Club contributors with heart.
+
 © 2023  China [Web3-Club](https://github.com/Web3-Club)｜中国Web3社区
+
 ALL RIGHT RESERVED
