@@ -17,11 +17,15 @@
   
 ## 效果图展示
 ### **（实际界面 以最终提交项目时为准）**
+
+### 聊天交互界面
+
 <img width="638" alt="436204890f062aaa9bca6c6a35576b5" src="https://user-images.githubusercontent.com/111333575/230032972-9314febc-e317-4d2f-b4a2-23e2e3c5d51a.png">
 
 <br>
 <br>
 <br>
+### NFT分发界面
 
 ![1261680685917_ pic](https://user-images.githubusercontent.com/76860915/230056557-88d14e30-cb2b-44d3-b036-f12b725eea86.jpg)
 
