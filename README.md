@@ -44,20 +44,24 @@
 [![contrib graph](https://contrib.rocks/image?repo=Web3-Club/Web3-Interactive-Learning)](https://github.com/Web3-Club/Web3-Interactive-Learning/graphs/contributors)
 
 - [烟波](https://github.com/orgs/Web3-Club/people/yanboishere)
+  
   - 项目策划
  
 - [JiceJin](https://github.com/orgs/Web3-Club/people/JiceJin)
+  
   - 前端
   - 后端
   - 智能合约开发
   - 测试
 
 - [Azleal](https://github.com/orgs/Web3-Club/people/Azleal)
+  
   - 后端 
   - 项目策划
   - 交互逻辑策划
 
 - [woHocooL](https://github.com/orgs/Web3-Club/people/woHocooL)
+ 
   - 文档编辑 
   - 交互逻辑设计 
   - 问题设计 
