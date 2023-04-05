@@ -15,6 +15,7 @@
     - 章节通过，或者其他的行为，如参与学习网站贡献、纠错等，可以获得社区代币。
   - 让更多对Web3领域相关知识感兴趣的朋友，能够为他们提供 一个非常低的学习门槛，真正做到从“0”开始学习Web3。也让其在这个探索的过程中 能接触到一些Web3相关的实例 —— 如 NFT，DAO 
 ## 效果图展示
+<img width="638" alt="436204890f062aaa9bca6c6a35576b5" src="https://user-images.githubusercontent.com/111333575/230032972-9314febc-e317-4d2f-b4a2-23e2e3c5d51a.png">
 
 ## 免责声明
 This project is an open-source project and is intended for learning and research purposes only,shall not constitute investment advice, financial advice, trading advice, or any other kind of advice, and you should not treat any of the object content as such.
