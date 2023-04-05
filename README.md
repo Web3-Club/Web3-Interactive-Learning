@@ -28,7 +28,7 @@
 
 ### NFT分发界面
 
-![1261680685917_ pic](https://user-images.githubusercontent.com/76860915/230056557-88d14e30-cb2b-44d3-b036-f12b725eea86.jpg)
+<img alt="1261680685917_ pic" height="518" src="https://user-images.githubusercontent.com/76860915/230056557-88d14e30-cb2b-44d3-b036-f12b725eea86.jpg" width="400"/>
 
 
 
