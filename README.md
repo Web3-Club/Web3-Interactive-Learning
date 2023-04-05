@@ -18,6 +18,10 @@
 ## 效果图展示
 <img width="638" alt="436204890f062aaa9bca6c6a35576b5" src="https://user-images.githubusercontent.com/111333575/230032972-9314febc-e317-4d2f-b4a2-23e2e3c5d51a.png">
 
+![1261680685917_ pic](https://user-images.githubusercontent.com/76860915/230056557-88d14e30-cb2b-44d3-b036-f12b725eea86.jpg)
+
+
+
 ## 免责声明
 This project is an open-source project and is intended for learning and research purposes only,shall not constitute investment advice, financial advice, trading advice, or any other kind of advice, and you should not treat any of the object content as such.
 
