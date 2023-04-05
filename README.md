@@ -1,8 +1,8 @@
 # Web3 Interactive Learning
 ## Web3Club & EthBeijing 2023
 
+<img alt="主图" src="https://user-images.githubusercontent.com/76860915/229789325-103fd1d1-def6-4c96-88fa-46fb8f4b5762.png"/>
 
-![主图](https://user-images.githubusercontent.com/76860915/229789325-103fd1d1-def6-4c96-88fa-46fb8f4b5762.png)
 
 ## 项目简介
 
