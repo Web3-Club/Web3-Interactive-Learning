@@ -1,4 +1,6 @@
 # Web3 Interactive Learning
+[![开源授权](https://img.shields.io/github/license/Web3-Club/Web3-Club/Web3-Interactive-Learning?style=flat-square)](https://github.com/Web3-Club/Web3-Interactive-Learning/) 
+
 ## Web3Club & EthBeijing 2023
 
 <img alt="主图" src="https://user-images.githubusercontent.com/76860915/229789325-103fd1d1-def6-4c96-88fa-46fb8f4b5762.png"/>
