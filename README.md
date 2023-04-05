@@ -66,15 +66,16 @@
   - 交互逻辑设计 
   - 问题设计 
 
-## ⚠️  免责声明
+# ⚠️  免责声明
 This project is an open-source project and is intended for learning and research purposes only,shall not constitute investment advice, financial advice, trading advice, or any other kind of advice, and you should not treat any of the object content as such.
 
 You alone assume the sole responsibility of evaluating the merits and risks associated with using any information or other content on this website before making any decisions based on such information.
 
 The project team shall not be responsible for any legal liability, direct or indirect damages arising from any unauthorized commercial use, abuse or any other form of improper use. By using the open-source code of this project, you acknowledge that you have read and agreed to this disclaimer. 
 
-### Licence
-MIT
+## Licence
+
+### MIT
 
 Built by China Web3-Club contributors with heart.
 
