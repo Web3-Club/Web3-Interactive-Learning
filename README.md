@@ -85,11 +85,8 @@
  
 - [JiceJin](https://github.com/JiceJin)
   
-  - 前端
-    - 开发
+  - 前端开发
   - 智能合约开发
-    - 钱包连接
-    - NFT/sbt
   - 测试
 
 - [Azleal](https://github.com/Azleal)
