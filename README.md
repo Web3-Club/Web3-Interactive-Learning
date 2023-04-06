@@ -80,6 +80,7 @@
   - 队长
   - 项目策划
   - 文档编辑
+  - 问题及其交互特色设计
  
 - [JiceJin](https://github.com/JiceJin)
   
