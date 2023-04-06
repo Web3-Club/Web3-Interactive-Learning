@@ -95,15 +95,12 @@
 
 - [Azleal](https://github.com/Azleal)
   
-  - 前端
-    - 开发及架构设计
+  - 前端（开发及架构设计）
     
-  - 后端
-    - 开发及架构设计 
+  - 后端（开发及架构设计）
   - 项目策划
   - 交互逻辑策划
-  - 测试
-    - 项目全栈测试
+  - 项目全栈测试
 
 - [woHocooL](https://github.com/woHocooL)
  
