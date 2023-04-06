@@ -484,7 +484,7 @@ const dialogs = [
  * @returns 
  */
 function getDialog(id){
-  const dialog = dialogs.filter(e => e.id === id)
+  const dialog = dialogs.filter(e => e.id === parseInt(id))
   if(dialog.length > 0){
     return dialog[0]
   }

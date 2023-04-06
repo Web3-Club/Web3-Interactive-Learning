@@ -10,9 +10,11 @@ router.get('/briefs', function (ctx, next) {
   ctx.body = getDialogBriefs()
 })
 
-router.get('/getDialog', function (ctx, next) {
+router.get('/:id', function (ctx, next) {
   const {id} = ctx.params
+  console.log("id:", id)
   const dialog = getDialog(id)
+  console.log("dialog:", dialog)
   ctx.body = dialog
 })
 
