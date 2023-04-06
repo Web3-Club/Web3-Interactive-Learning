@@ -35,7 +35,7 @@
 <img alt="1261680685917_ pic" height="518" src="https://user-images.githubusercontent.com/76860915/230056557-88d14e30-cb2b-44d3-b036-f12b725eea86.jpg" width="400"/>
 
 ##  📅 项目日志
-
+[issues #4](https://github.com/Web3-Club/Web3-Interactive-Learning/issues/4)
 
 ##  📅 活动日志
 
