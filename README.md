@@ -77,6 +77,7 @@
 
 - [烟波](https://github.com/yanboishere)
   
+  - 队长
   - 项目策划
   - 文档编辑
  
@@ -89,9 +90,11 @@
 
 - [Azleal](https://github.com/Azleal)
   
-  - 后端 
+  - 前端 
+  - 后端
   - 项目策划
   - 交互逻辑策划
+  - 测试
 
 - [woHocooL](https://github.com/woHocooL)
  
