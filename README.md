@@ -102,7 +102,6 @@
   - 文档编辑 
   - 交互逻辑设计及策划
   - 问题、选项及其流程图设计 
-  - 交互逻辑设计 
 
 # ⚠️  免责声明
 This project is an open-source project and is intended for learning and research purposes only,shall not constitute investment advice, financial advice, trading advice, or any other kind of advice, and you should not treat any of the object content as such.
