@@ -6,63 +6,40 @@ const dialogs = [
           {
               "id":1,
               "type":"knowledge",
-              "data":"Hi 欢迎开始进入Web3的世界"
+              "data":"Hi 非常欢迎您来开始进入Web3🌐的世界 🚀"
           },
           {
               "id":2,
               "type":"knowledge",
-              "data":"我们可以将过去短暂的互联网历史分为两个时期—Web 1.0 和 Web 2.0 🔗"
+              "data":"我们可以将过去短暂的互联网历史分为两个时期—Web 1.0 和 Web 2.0 🔗 "
           },
           {
               "id":3,
               "type":"knowledge",
-              "data":"Web1.0时期(1990-2004)，特点：只读。👀"
+              "data":"比如 Web1.0时期(1990-2004)，这个时期的互联网的特点：只读。👀"
           },
           {
               "id":4,
-              "type":"knowledge",
-              "data":"Web 3.0：能读 - 能写 - 能拥有. 它的核心思想有以下："
-          },
-          {
-              "id":5,
               "type":"choices",
               "data":[
                   {
-                      "choice":"去中心化",
+                      "choice":"🕸️ 没用过Web1.0，不是很了解......", 
                       "path":[
                           {
-                              "from":null,
+                              "from":4,
+                              "to":5
+                          }
+                      ]
+                  },
+                  {
+                      "choice":"我有听说过！🧐",
+                      "path":[
+                          {
+                              "from":5,
                               "to":6
                           }
                       ]
                   },
-                  {
-                      "choice":"无需许可",
-                      "path":[
-                          {
-                              "from":null,
-                              "to":7
-                          }
-                      ]
-                  },
-                  {
-                      "choice":"具有原生支付功能",
-                      "path":[
-                          {
-                              "from":null,
-                              "to":8
-                          }
-                      ]
-                  },
-                  {
-                      "choice":"无需信任",
-                      "path":[
-                          {
-                              "from":null,
-                              "to":9
-                          }
-                      ]
-                  }
               ]
           },
           {
