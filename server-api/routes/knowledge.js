@@ -6,7 +6,7 @@ const dialogs = [
           {
               "id":1,
               "type":"knowledge",
-              "data":"可以将过去短暂的互联网历史分为两个时期—Web 1.0 和 Web 2.0"
+              "data":"Hi 欢迎开始进入Web3的世界"
           },
           {
               "id":2,
