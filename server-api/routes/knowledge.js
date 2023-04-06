@@ -26,8 +26,8 @@ const dialogs = [
                       "choice":"🕸️ 没用过Web1.0，不是很了解......", 
                       "path":[
                           {
-                              "from":4,
-                              "to":5
+                              "from":3,
+                              "to":4
                           }
                       ]
                   },
@@ -35,32 +35,32 @@ const dialogs = [
                       "choice":"我有听说过！🧐",
                       "path":[
                           {
-                              "from":5,
-                              "to":6
+                              "from":4,
+                              "to":5
                           }
                       ]
                   },
               ]
           },
           {
-              "id":6,
+              "id":5,
               "type":"knowledge",
-              "data":"大部分互联网不是由中心化实体控制和拥有的，而是由构建者和用户分配所有权。",
+              "data":"Web1.0主要是由公司拥有的静态网站，用户之间的互动几乎为零 ❌",
               "path":[
                   {
-                      "from":null,
-                      "to":10
+                      "from":5,
+                      "to":6
                   }
               ]
           },
           {
-              "id":7,
+              "id":6,
               "type":"knowledge",
-              "data":"每个人都有参与 Web3 的平等权限，没有人被排除在外。",
+              "data":"个人很少创造内容，导致它被称为只读网络。🚫🗣️",
               "path":[
                   {
-                      "from":null,
-                      "to":10
+                      "from":6,
+                      "to":7
                   }
               ]
           },
