@@ -80,27 +80,36 @@
   - 队长
   - 项目策划
   - 文档编辑
+  - 后端
+    - 内容嵌入
  
 - [JiceJin](https://github.com/JiceJin)
   
   - 前端
-  - 后端
+    - 开发
   - 智能合约开发
+    - 钱包连接
+    - NFT/sbt
   - 测试
 
 - [Azleal](https://github.com/Azleal)
   
-  - 前端 
+  - 前端
+    - 开发及架构设计
   - 后端
+    - 开发及架构设计 
   - 项目策划
   - 交互逻辑策划
   - 测试
+    - 项目全栈测试
 
 - [woHocooL](https://github.com/woHocooL)
  
   - 文档编辑 
-  - 交互逻辑设计 
-  - 问题设计 
+  - 交互逻辑设计及策划
+  - 问题、选项及其流程图设计 
+ 
+  
 
 # ⚠️  免责声明
 This project is an open-source project and is intended for learning and research purposes only,shall not constitute investment advice, financial advice, trading advice, or any other kind of advice, and you should not treat any of the object content as such.
