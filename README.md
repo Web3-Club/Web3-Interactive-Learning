@@ -85,7 +85,7 @@ The project team shall not be responsible for any legal liability, direct or ind
 
 ## 📖 Licence
 
-### MIT
+### Creative Commons Attribution Share Alike 4.0 International
 
 Built by China Web3-Club contributors with heart.<br>
 © 2023  China [Web3-Club](https://github.com/Web3-Club)｜中国Web3社区 <br>
