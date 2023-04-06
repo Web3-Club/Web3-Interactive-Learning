@@ -65,7 +65,7 @@ const dialogs = [
               ]
           },
           {
-              "id":8,
+              "id":7,
               "type":"knowledge",
               "data":"它使用加密货币进行线上消费和汇款，而不是依赖传统银行或第三方支付机构过时的基础设施。",
               "path":[
@@ -76,7 +76,7 @@ const dialogs = [
               ]
           },
           {
-              "id":9,
+              "id":8,
               "type":"knowledge",
               "data":"它通过激励措施和经济机制运转，而不是依赖受信任的第三方。",
               "path":[
