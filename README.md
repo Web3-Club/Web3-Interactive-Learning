@@ -17,7 +17,29 @@
   - 通过智能合约 实现：
     - 课程认证NFT/sbt自动发放，通过一系列合约的交互来实现
     - 章节通过，或者其他的行为，如参与学习网站贡献、纠错等，可以获得社区代币。
-  - 让更多对Web3领域相关知识感兴趣的朋友，能够为他们提供 一个非常低的学习门槛，真正做到从“0”开始学习Web3。也让其在这个探索的过程中 能接触到一些Web3相关的实例 —— 如 NFT，DAO 
+  - 让更多对Web3领域相关知识感兴趣的朋友，能够为他们提供 一个非常低的学习门槛，**真正做到从“0”开始学习Web3**。也让其在这个探索的过程中 能接触到一些Web3相关的实例 —— 如 NFT，DAO 
+  
+## 项目特色
+
+- 始终保证交互内容的趣味性
+
+ 1. 将生硬的概念性知识 通过在其后 添加实例
+  （如Web1.0——个人博客——只写）
+ 2. 通过在对话中加入emoji 提高互动的趣味性
+  
+- 保证每节课节的 学习量 科学化
+
+ 1.在学习者 在聊天框之中 每条知识科普回复的信息量 都有一定限制标准 
+   确保学习者在学习过程中 能始终以一个较为轻松的状态 来完成学习 
+           
+ 2.通过在选项中增加 学习者对学习内容感受的 分支选项 
+   如 讲完Web1.0相关概念后 有 ：
+
+              选项1：没用过Web1.0，不是很了解
+              选项2:  我有听说过！                  
+
+   来确保 我们项目中最主要的特性：**互动性**
+
   
 ## ✅ 效果图展示
 ### **（实际界面 以最终提交项目时为准）**
@@ -33,6 +55,7 @@
 ### 🌆 NFT分发界面
 
 <img alt="1261680685917_ pic" height="518" src="https://user-images.githubusercontent.com/76860915/230056557-88d14e30-cb2b-44d3-b036-f12b725eea86.jpg" width="400"/>
+
 
 ## 项目进度
 [issues#6](https://github.com/Web3-Club/Web3-Interactive-Learning/issues/6)
@@ -54,8 +77,10 @@
 
 - [烟波](https://github.com/yanboishere)
   
+  - 队长
   - 项目策划
   - 文档编辑
+  - 问题及其交互特色设计
  
 - [JiceJin](https://github.com/JiceJin)
   
@@ -66,15 +91,17 @@
 
 - [Azleal](https://github.com/Azleal)
   
-  - 后端 
+  - 前端 
+  - 后端
   - 项目策划
   - 交互逻辑策划
+  - 测试
 
 - [woHocooL](https://github.com/woHocooL)
  
   - 文档编辑 
   - 交互逻辑设计 
-  - 问题设计 
+  - 问题及其流程图设计 
 
 # ⚠️  免责声明
 This project is an open-source project and is intended for learning and research purposes only,shall not constitute investment advice, financial advice, trading advice, or any other kind of advice, and you should not treat any of the object content as such.
