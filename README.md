@@ -112,7 +112,7 @@ The project team shall not be responsible for any legal liability, direct or ind
 
 The organization that developed this page, "Web3Club", is currently a non-profit open source community, not a company or corporationand.
 
-If you have any questions about licence or copyright, please read the LICENCE section below or contact us at web3club@email.cn
+If you have any questions about licence or copyright, please read the [LICENCE]() section below or contact us at web3club@email.cn
 
 ## 📖 Licence
 
