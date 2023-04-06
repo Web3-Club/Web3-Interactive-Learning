@@ -83,6 +83,8 @@ You alone assume the sole responsibility of evaluating the merits and risks asso
 
 The project team shall not be responsible for any legal liability, direct or indirect damages arising from any unauthorized commercial use, abuse or any other form of improper use. By using the open-source code of this project, you acknowledge that you have read and agreed to this disclaimer. 
 
+If you have any questions about licence or copyright, please read the LICENCE section below or contact us at web3club@email.cn
+
 ## 📖 Licence
 
 ### Creative Commons Attribution Share Alike 4.0 International
