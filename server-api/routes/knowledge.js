@@ -20,14 +20,14 @@ const dialogs = [
           {
               "id":2,
               "type":"knowledge",
-              "data":"我们可以将过去短暂的互联网历史分为两个时期—Web 1.0 和 Web 2.0 🔗 "
+              "data":"我们可以将过去短暂的互联网历史分为两个时期—Web 1.0 和 Web 2.0 🔗",
             "path":[
                   {
                       "from":2,
                       "to":3
                   }
               ]
-          },
+          }
        
           {
               "id":3,
