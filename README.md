@@ -3,7 +3,7 @@
 [![mit](https://img.shields.io/github/license/Web3-Club/Web3-Interactive-Learning?style=flat-square)](https://github.com/Web3-Club/Web3-Interactive-Learning/) [![GitHub stars](https://img.shields.io/github/stars/Web3-Club/Web3-Interactive-Learning.svg?style=social&label=Stars)](https://github.com/Web3-Club/Web3-Interactive-Learning) [![GitHub watchers](https://img.shields.io/github/watchers/Web3-Club/Web3-Interactive-Learning.svg?style=social&label=Watch)](https://github.com/Web3-Club/Blockchain-Developer-roadmap_Chinese)
 
 
-## Web3Club & EthBeijing 2023 参赛作品
+## Web3Club & EthBeijing 2023 活动作品
 
 <img alt="主图" src="https://user-images.githubusercontent.com/76860915/229789325-103fd1d1-def6-4c96-88fa-46fb8f4b5762.png"/>
 
@@ -80,28 +80,28 @@
   - 队长
   - 项目策划
   - 文档编辑
+  - 后端（内容嵌入）
   - 问题及其交互特色设计
  
 - [JiceJin](https://github.com/JiceJin)
   
-  - 前端
-  - 后端
+  - 前端开发
   - 智能合约开发
   - 测试
 
 - [Azleal](https://github.com/Azleal)
   
-  - 前端 
-  - 后端
+  - 前端（开发及架构设计）
+  - 后端（开发及架构设计）
   - 项目策划
   - 交互逻辑策划
-  - 测试
+  - 项目全栈测试
 
 - [woHocooL](https://github.com/woHocooL)
  
   - 文档编辑 
-  - 交互逻辑设计 
-  - 问题及其流程图设计 
+  - 交互逻辑设计及策划
+  - 问题、选项及其流程图设计 
 
 # ⚠️  免责声明
 This project is an open-source project and is intended for learning and research purposes only,shall not constitute investment advice, financial advice, trading advice, or any other kind of advice, and you should not treat any of the object content as such.
@@ -112,7 +112,7 @@ The project team shall not be responsible for any legal liability, direct or ind
 
 The organization that developed this page, "Web3Club", is currently a non-profit open source community, not a company or corporationand.
 
-If you have any questions about licence or copyright, please read the LICENCE section below or contact us at web3club@email.cn
+If you have any questions about licence or copyright, please read the [LICENCE]() section below or contact us at web3club@email.cn
 
 ## 📖 Licence
 
