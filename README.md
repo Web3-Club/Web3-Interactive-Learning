@@ -67,7 +67,8 @@
 ##  📅 活动日志
 [issues #4](https://github.com/Web3-Club/Web3-Interactive-Learning/issues/4)
 
-      
+## 关于我们
+[Web3Club](https://github.com/Web3-Club/Intro.)
     
 
 ## ❤️ 项目成员
