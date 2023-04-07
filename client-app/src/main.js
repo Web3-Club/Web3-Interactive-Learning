@@ -1,14 +1,16 @@
-// polyfill
-import 'babel-polyfill';
-
-import Vue from 'vue';
-import App from './App';
+import Vue from 'vue'
+import App from './App.vue'
 import store from './store';
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
 
-Vue.config.devtools = true;
+
+Vue.config.productionTip = false
+Vue.use(ElementUI);
 
 new Vue({
-    el: 'body',
-    components: { App },
-    store: store
-});
+    store: store,
+  render: h => h(App),
+  
+  
+}).$mount('#app')
