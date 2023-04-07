@@ -93,8 +93,7 @@ const dialogs = [
                   }
               ]
           },
-          
-         //chat 7
+       //chat 7
          
           {
               "id":8,
@@ -109,7 +108,8 @@ const dialogs = [
                           }
                       ]
                   },
-            //choice 8-A 选择后都会转到 9
+        //choice 8-A 选择后都会转到 9
+           
                   {
                       "choice":"💻 那Web2.0又是什么呢？",
                       "path":[
@@ -119,32 +119,47 @@ const dialogs = [
                           }
                       ]
                   },
-            //choice 8-B 选择后都会转到 9
-                
-                
-             
+          //choice 8-B 选择后都会转到 9
+                                            
           {
               "id":9,
               "type":"knowledge",
               "data":"是的，接着迎来了Web2.0时代。🎉",
               "path":[
                   {
-                      "from":null,
+                      "from":9,
                       "to":10
                   }
               ]
           },
+          //chat 9
+          
           {
-              "id":8,
+              "id":10,
               "type":"knowledge",
-              "data":"它通过激励措施和经济机制运转，而不是依赖受信任的第三方。",
+              "data":"Web2.0（2004 年 - 至今），特点：能读能写。",
               "path":[
                   {
-                      "from":null,
-                      "to":10
+                      "from":10,
+                      "to":11
                   }
               ]
           },
+          //chat 10
+          
+          {
+              "id":11,
+              "type":"knowledge",
+              "data":"去中心化：无单一中央机构控制。通过把信息分散存储在多个地方，避免单一节点控制，从而提高安全性、稳定性和公正性",
+              "path":[
+                  {
+                      "from":11,
+                      "to":12
+                  }
+              ]
+          },
+          //chat 12
+          
           {
               "id":10,
               "type":"choices",
