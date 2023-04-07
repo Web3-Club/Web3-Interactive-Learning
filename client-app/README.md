@@ -1,18 +1,24 @@
-# Chat by Vue + Webpack
+# vue-chats
 
-[Live demo](http://coffcer.github.io/vue-chat/)
-
-<img width="600" src="https://github.com/Coffcer/vue-chat/blob/master/intro.jpg">
-
-## Build Setup
-
-``` bash
-# install dependencies
+## Project setup
+```
 npm install
+```
 
-# serve with hot reload at localhost:8080
-npm run dev
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-# build for production with minification
+### Compiles and minifies for production
+```
 npm run build
 ```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

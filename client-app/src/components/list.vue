@@ -1,28 +1,31 @@
 <script>
-import { actions } from '../store';
 
 export default {
-    vuex: {
-        actions: actions,
-        getters: {
-            // 过滤后的会话列表
-            sessions: ({ sessions, filterKey }) => {
-                let result = sessions.filter(session => session.user.name.includes(filterKey));
-                return result;
-            },
-            // 当前会话index
-            currentId: ({ currentSessionId }) => currentSessionId
+    computed: {
+        currentIndex(){
+            return this.$store.state.currentIndex
+        },
+        breifs(){
+            return this.$store.state.briefs
+        }
+    },
+    methods:{
+        selectDialog(index){
+            this.$store.dispatch("SELECT_DIALOG",index)
         }
     }
+
 };
 </script>
 
 <template>
 <div class="list">
     <ul>
-        <li v-for="item in sessions" :class="{ active: item.id === currentId }" @click="selectSession(item.id)">
-            <img class="avatar"  width="30" height="30" :alt="item.user.name" :src="item.user.img">
-            <p class="name">{{item.user.name}}</p>
+        <li v-for="(item,index) in breifs" :class="{ active: index === currentIndex }" 
+        v-bind:key="index"
+        @click="selectDialog(index)">
+            <!-- <img class="avatar"  width="30" height="30" :alt="item.user.name" :src="item.user.img"> -->
+            <p class="name">{{item.title}}</p>
         </li>
     </ul>
 </div>
