@@ -15,7 +15,7 @@ const dialogs = [{"id":1,"title":"Web3介绍","dialog":[{"id":1,"type":"knowledg
                     }
                 ]
             }, 
-         
+            
             {
                 "id":2,
                 "type":"knowledge",
@@ -38,7 +38,7 @@ const dialogs = [{"id":1,"title":"Web3介绍","dialog":[{"id":1,"type":"knowledg
                       "to":4
                   }
               ]
-          },
+            },
          
             {
                 "id":4,
