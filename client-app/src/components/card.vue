@@ -1,17 +1,16 @@
 <script>
-import { actions } from '../store';
 
 export default {
-    vuex: {
-        actions: actions,
-        getters: {
-            user: ({ user }) => user,
-            filterKey: ({ filterKey }) => filterKey
-        }
+    computed: {
+      selectedBrief(){
+            return this.$store.state.selectedBrief
+        },
     },
     methods: {
         onKeyup (e) {
-            this.search(e.target.value);
+            this.$store.dispatch("SET_FILTER_KEY",{
+                    value: e.target.value
+                })
         }
     }
 };
@@ -20,12 +19,8 @@ export default {
 <template>
 <div class="card">
     <header>
-        <img class="avatar" width="40" height="40" :alt="user.name" :src="user.img">
-        <p class="name">{{user.name}}</p>
+        <p class="name">{{selectedBrief.title}}</p>
     </header>
-    <footer>
-        <input class="search" type="text" placeholder="search user..." @keyup="onKeyup | debounce 150">
-    </footer>
 </div>
 </template>
 
