@@ -4,12 +4,14 @@ const hre = require("hardhat");
 async function main(){
     //0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
     const [account,second] = await hre.ethers.getSigners();
-    const web3club1155 = await hre.ethers.getContractAt("Web3ClubSBT1155","0x5fbdb2315678afecb367f032d93f642f64180aa3");
+    const web3club1155 = await hre.ethers.getContractAt("Web3ClubSBT1155","0xc4f9b79225f43b6f94Ae85EEDccAf61C9931dED3");
     //0xc4f9b79225f43b6f94Ae85EEDccAf61C9931dED3
 
-    const web3clubscore = await hre.ethers.getContractAt("Web3ClubScore","0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512");
+    const web3clubscore = await hre.ethers.getContractAt("Web3ClubScore","0x3B7495685Ee4402702cf86775839f4f46D49BAB3");
 
-    console.log(await web3club1155.balanceOf(account.address,0));
+    await (await web3club1155.setScoreContract(web3clubscore.address)).wait();
+
+    console.log(await web3club1155.scoreContract());
 
     // await (await web3club1155.setScoreContract(web3clubscore.address)).wait();
 

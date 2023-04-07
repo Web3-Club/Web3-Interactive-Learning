@@ -3,7 +3,7 @@ const hre = require("hardhat");
 
 async function main(){
     const Web3ClubScore = await hre.ethers.getContractFactory("Web3ClubScore");
-    const web3clubscore = await Web3ClubScore.deploy("0x5fbdb2315678afecb367f032d93f642f64180aa3");
+    const web3clubscore = await Web3ClubScore.deploy("0xc4f9b79225f43b6f94Ae85EEDccAf61C9931dED3");
     await web3clubscore.deployed();
 
     console.log(web3clubscore.address);
