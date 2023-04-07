@@ -80,8 +80,7 @@ const dialogs = [
                           }
                       ]
                   },
-                  
-        //chat 6
+       //chat 6
         
           {
               "id":7,
