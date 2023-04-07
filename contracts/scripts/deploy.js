@@ -2,13 +2,13 @@ const { BigNumber } = require("ethers");
 const hre = require("hardhat");
 
 async function main(){
-    const Web3Club1155 = await hre.ethers.getContractFactory("Web3Club1155");
-    const web3club1155 = await Web3Club1155.deploy("","Web3Club","W3C");
-    await web3club1155.deployed();
+    const Web3ClubSBT1155 = await hre.ethers.getContractFactory("Web3ClubSBT1155");
+    const web3clubSBT1155 = await Web3ClubSBT1155.deploy("","Web3ClubSBT","W3CSBT");
+    await web3clubSBT1155.deployed();
 
     const [first,second] = await hre.ethers.getSigners();
 
-    console.log(web3club1155.address);
+    console.log(web3clubSBT1155.address);
 }
 
 main().catch((error)=>{
