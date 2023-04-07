@@ -343,3 +343,4 @@ module.exports = {
   getDialog,
   getDialogBriefs
 }
+
