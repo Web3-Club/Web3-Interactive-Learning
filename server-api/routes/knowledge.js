@@ -394,13 +394,24 @@ const dialogs = [{"id":1,"title":"Web3介绍","dialog":[{"id":1,"type":"knowledg
                             }
                         ]
                     },
-                  
                     {
                         "choice":"还不是很明白，可以再简单点说明", 
                         "path":[
                             {
-                                "from":"none",
+                                "from":"21",
                                 "to":26
+                            }
+                            {
+                                "from":"22",
+                                "to":27
+                            }
+                            {
+                                "from":"23",
+                                "to":28
+                            }
+                            {
+                                "from":"24",
+                                "to":29
                             }
                         ]
                     }
@@ -451,10 +462,21 @@ const dialogs = [{"id":1,"title":"Web3介绍","dialog":[{"id":1,"type":"knowledg
                     }
                 ] 
             },
-             
-             
-            
-                
+            {
+                "id":30,
+                "type":"choices",
+                "data":[
+                    {
+                        "choice":"原来如此/OK", 
+                        "path":[
+                            {
+                                "from":"none",
+                                "to":31
+                            }
+                        ]
+                     },
+                 ] 
+            },
         ]
     }
 ]
