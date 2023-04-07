@@ -615,7 +615,7 @@ const dialogs = [{"id":1,"title":"Web3介绍","dialog":[{"id":1,"type":"knowledg
             {
                 "id":38,
                 "type":"knowledge",
-                "data":"是的，接着迎来了Web2.0时代。🎉",
+                "data":"💰 所有权：数字资产💸（如加密货币、代币、数字证券等）所代表或包括的权益或利益，包括但不限于持有、使用、流通、收益等方面。",
                 "path":[
                     {
                         "from":8,
@@ -627,7 +627,7 @@ const dialogs = [{"id":1,"title":"Web3介绍","dialog":[{"id":1,"type":"knowledg
             {
                 "id":39,
                 "type":"knowledge",
-                "data":"是的，接着迎来了Web2.0时代。🎉",
+                "data":"🚫 抗审查：用户可以使用无需信任、无需许可、无需认可的方式使用数字资产和服务，从而避免了中心化机构和政府的审查和限制👁️‍🗨️。这种技术特点使得用户能够自由地使用数字资产和服务，而不必担心遭受审查和限制的风险。",
                 "path":[
                     {
                         "from":8,
@@ -639,7 +639,7 @@ const dialogs = [{"id":1,"title":"Web3介绍","dialog":[{"id":1,"type":"knowledg
             {
                 "id":40,
                 "type":"knowledge",
-                "data":"是的，接着迎来了Web2.0时代。🎉",
+                "data":"🤖 DAO（去中心化自治组织）：一种由智能合约和代币构成的去中心化组织形式。这种组织形式通过智能合约的自动执行和代币的激励机制来实现去👥中心化的决策和治理，避免了中心化机构的干扰和不公。",
                 "path":[
                     {
                         "from":8,
@@ -651,7 +651,7 @@ const dialogs = [{"id":1,"title":"Web3介绍","dialog":[{"id":1,"type":"knowledg
             {
                 "id":41,
                 "type":"knowledge",
-                "data":"是的，接着迎来了Web2.0时代。🎉",
+                "data":"👤 身份：使用者在数字世界中的身份认证形式。Web3 技术为身份带来了新的形式和意义，具有🔑去中心化、自主掌控、数字化、安全可靠等特点。",
                 "path":[
                     {
                         "from":8,
