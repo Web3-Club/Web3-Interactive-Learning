@@ -149,7 +149,7 @@ export default {
 </template>
 
 <style lang="less" scoped>
-@transtion_time : 0.3s;
+@transtion_time : 0.5s;
 
 .list-enter-active, .list-leave-active {
   transition: all @transtion_time;

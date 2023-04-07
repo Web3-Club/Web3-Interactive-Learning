@@ -77,7 +77,7 @@ export default {
     }
 
     .message {
-        height: ~'calc(100% - 10px)';
+        height: ~'calc(100% - 50px)';
     }
 }
 </style>
