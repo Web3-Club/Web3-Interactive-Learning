@@ -10,6 +10,7 @@ const dialogs = [
               "type":"knowledge",
               "data":"Hi 非常欢迎您来开始进入Web3🌐的世界 🚀"
           },
+          
        //chat 1
           {
               "id":2,
