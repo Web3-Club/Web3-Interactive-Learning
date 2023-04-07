@@ -95,8 +95,8 @@ const dialogs = [
                       "choice":"我有听说过！🧐",
                       "path":[
                           {
-                              "from":4,
-                              "to":5
+                              "from":8,
+                              "to":9
                           }
                       ]
                   },
@@ -105,7 +105,7 @@ const dialogs = [
                 
              
           {
-              "id":,
+              "id":9,
               "type":"knowledge",
               "data":"它使用加密货币进行线上消费和汇款，而不是依赖传统银行或第三方支付机构过时的基础设施。",
               "path":[
