@@ -93,6 +93,7 @@ const dialogs = [
                   }
               ]
           },
+          
          //chat 7
          
           {
@@ -110,7 +111,7 @@ const dialogs = [
                   },
             //choice 8-A 选择后都会转到 9
                   {
-                      "choice":"我有听说过！🧐",
+                      "choice":"💻 那Web2.0又是什么呢？",
                       "path":[
                           {
                               "from":8,
@@ -125,7 +126,7 @@ const dialogs = [
           {
               "id":9,
               "type":"knowledge",
-              "data":"它使用加密货币进行线上消费和汇款，而不是依赖传统银行或第三方支付机构过时的基础设施。",
+              "data":"是的，接着迎来了Web2.0时代。🎉",
               "path":[
                   {
                       "from":null,
