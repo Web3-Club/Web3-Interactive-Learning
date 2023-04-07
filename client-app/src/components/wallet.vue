@@ -11,6 +11,11 @@ export default {
 
       }
     },
+    computed:{
+      isSubmitted(){
+        return this.$store.state.isSubmitted
+      }
+    },
     methods:{
       disconnect(){
           this.account = null
@@ -43,7 +48,7 @@ export default {
     <div v-if="account">{{  account }}</div>
     <el-button v-if="!account" @click="connect">连接钱包</el-button>
     <el-button v-if="account"  @click="disconnect">断开连接</el-button>
-    <el-button v-if="account"  @click="mint">Mint</el-button>
+    <el-button v-if="account && isSubmitted"  @click="mint">Mint</el-button>
 </div>
 </template>
 
