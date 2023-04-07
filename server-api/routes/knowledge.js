@@ -37,6 +37,8 @@ const dialogs = [
                       ]
                   },
                   
+        //choice 1-A   
+   
                   {
                       "choice":"我有听说过！🧐",
                       "path":[
@@ -46,7 +48,8 @@ const dialogs = [
                           }
                       ]
                   },
-                  
+        //choice 1-B
+        
               ]
           },
           {
@@ -60,6 +63,7 @@ const dialogs = [
                   }
               ]
           },
+        //chat 5
           {
               "id":6,
               "type":"choices",
