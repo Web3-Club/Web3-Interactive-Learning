@@ -39,7 +39,7 @@ const dialogs = [
                           }
                       ]
                   },
-        //choice 4-A   
+        //choice 4-A option，选择后都会转到 5 
    
                   {
                       "choice":"我有听说过！🧐",
@@ -52,8 +52,8 @@ const dialogs = [
                   },        
               ]
           },
-       //choice 4-B
-       //最终 4-A 4-B 选项，选择后都会转到 5 
+       //choice 4-B option
+       //最终 4-A 4-B option，选择后都会转到 5 
           {
               "id":5,
               "type":"knowledge",
@@ -108,7 +108,7 @@ const dialogs = [
                           }
                       ]
                   },
-        //choice 8-A 选择后都会转到 9
+        //choice 8-A option， 选择后都会转到 9
            
                   {
                       "choice":"💻 那Web2.0又是什么呢？",
@@ -119,7 +119,7 @@ const dialogs = [
                           }
                       ]
                   },
-          //choice 8-B 选择后都会转到 9
+          //choice 8-B option， 选择后都会转到 9
                                             
           {
               "id":9,
