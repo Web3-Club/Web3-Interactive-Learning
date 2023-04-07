@@ -17,6 +17,10 @@ module.exports = {
     sepolia:{
       url: `https://eth-sepolia.g.alchemy.com/v2/${process.env.ALCHEMY_SEPOLIA_API_KEY}`,
       accounts:[process.env.PRIVATE_KEY_1,process.env.PRIVATE_KEY_2]
+    },
+    scrolltestnet:{
+      url: `https://alpha-rpc.scroll.io/l2`,
+      accounts:[process.env.PRIVATE_KEY_1,process.env.PRIVATE_KEY_2]
     }
   },
   etherscan:{
