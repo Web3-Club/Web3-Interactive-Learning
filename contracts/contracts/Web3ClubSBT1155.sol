@@ -1653,4 +1653,19 @@ contract Web3ClubSBT1155 is ERC1155URIStorage,ISoul{
     }
     //交易SBT
     function recover(address oldOwner, address newOwner) external{}
+    //SBT不允许代币交易
+    function _beforeTokenTransfer(
+        address operator,
+        address from,
+        address to,
+        uint256[] memory ids,
+        uint256[] memory amounts,
+        bytes memory data
+    ) internal override {
+        require(
+            (from == address(0) || to == address(0) || msg.sender == owner),
+            "Non-Transferable"
+        );
+        super._beforeTokenTransfer(operator,from,to,ids,amounts,data);
+    }
 }
