@@ -481,6 +481,9 @@ const dialogs = [{"id":1,"title":"Web3介绍","dialog":[{"id":1,"type":"knowledg
     }
 ]
 
+
+
+
 /**
  * 根据对话id获取具体的对话信息
  * 
