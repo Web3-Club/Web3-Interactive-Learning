@@ -2,6 +2,7 @@
 import {ethers} from 'ethers'
 import scoreAdd from '../../deployments/dev/Web3ClubScore.json'
 import scoreAbi from '../../deployments/abi/Web3ClubScore.json'
+// import { type } from 'os';
 
 export default {
     data(){
@@ -31,6 +32,12 @@ export default {
         this.initContract();
       },
       mint: async function(){
+        //调用mint时判断chainId
+        let network = await this.provider.getNetwork();
+        if(network.chainId != "534353"){
+          return
+        }
+        //调用mint
         await (await this.Score.mint(this.account,0)).wait();
       },
       initContract(){
