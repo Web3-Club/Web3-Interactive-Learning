@@ -32,6 +32,7 @@ export default {
 
         if(this.isEnd){
           clearInterval(this.displayTicker)
+          return
         }
         const now =  new Date().getTime();
         if(now - this.lastDialogTime < this.dialogGap){
@@ -42,6 +43,7 @@ export default {
         const dialogItem = this.dialogMap.get(this.toId)
         if(!dialogItem){
           this.stopTicker()
+          return
         }
         console.log("dialogItem:", dialogItem)
         if(this.currentDialogData.length > 0){
@@ -50,6 +52,10 @@ export default {
         this.toId = this.toId + 1
         if(dialogItem?.path){
           this.toId = dialogItem?.path[0]?.to
+        }
+        const nextItem = this.dialogMap.get(this.toId)
+        if(!nextItem){
+          this.isEnd = true
         }
         if(dialogItem?.to){
           this.toId = dialogItem?.to
