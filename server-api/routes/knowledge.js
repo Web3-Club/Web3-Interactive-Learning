@@ -289,6 +289,54 @@ const dialogs = [{"id":1,"title":"Web3介绍","dialog":[{"id":1,"type":"knowledg
                     }
                 ] 
             }
+            
+            {
+                "id":20,
+                "type":"choices",
+                "data":[
+                    {
+                        "choice":"去中心化", 
+                        "path":[
+                            {
+                                "from":"none",
+                                "to":21
+                            }
+                        ]
+                    },
+                  
+                    {
+                        "choice":"无需许可", 
+                        "path":[
+                            {
+                                "from":"none",
+                                "to":22
+                            }
+                        ]
+                    }
+                            
+                    {
+                        "choice":"具有原生支付功能", 
+                        "path":[
+                            {
+                                "from":"none",
+                                "to":23
+                            }
+                        ]
+                    }
+                    
+                    {
+                        "choice":"无需信任", 
+                        "path":[
+                            {
+                                "from":"none",
+                                "to":24
+                            }
+                        ]
+                    }
+                ]
+            },
+            
+            
                 
         ]
     }
