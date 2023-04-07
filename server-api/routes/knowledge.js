@@ -37,7 +37,7 @@ const dialogs = [
                       ]
                   },
                   
-        //choice 1-A   
+        //choice 4-A   
    
                   {
                       "choice":"我有听说过！🧐",
@@ -48,7 +48,8 @@ const dialogs = [
                           }
                       ]
                   },
-        //choice 1-B
+        //choice 4-B
+        //最终 4-A 4-B 选项，选择后都会转到 5
         
               ]
           },
