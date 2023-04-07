@@ -1,5 +1,8 @@
 <template>
 <div id="app">
+  <div>
+    <wallet></wallet>
+  </div>
     <div class="sidebar">
         <card></card>
         <list></list>
@@ -16,13 +19,15 @@
 import Card from './components/card';
 import List from './components/list';
 import Message from './components/message';
+import Wallet from './components/wallet';
 
 export default {
     name: 'App',
     components: {
         Card,
         List,
-        Message
+        Message,
+        Wallet
     },
     created() {
         this.$store.dispatch("INIT_DATA")
