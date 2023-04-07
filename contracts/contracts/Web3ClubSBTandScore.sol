@@ -1,5 +1,9 @@
 // Sources flattened with hardhat v2.13.0 https://hardhat.org
 
+// File contracts/Web3ClubSBT1155.sol
+
+// Sources flattened with hardhat v2.13.0 https://hardhat.org
+
 // File @openzeppelin/contracts/utils/introspection/IERC165.sol@v4.8.2
 
 // SPDX-License-Identifier: MIT
@@ -1667,5 +1671,28 @@ contract Web3ClubSBT1155 is ERC1155URIStorage,ISoul{
             "Non-Transferable"
         );
         super._beforeTokenTransfer(operator,from,to,ids,amounts,data);
+    }
+}
+
+
+// File contracts/Web3ClubScore.sol
+
+contract Web3ClubScore{
+    mapping(address => mapping(uint256 => bool)) public passList;
+    Web3ClubSBT1155 private sbt;
+
+    constructor(address sbt_address){
+        sbt = Web3ClubSBT1155(sbt_address);
+    }
+
+    function passCheck(address to,uint256 id) public view returns(bool){
+        return passList[to][id];
+    }
+
+    function mint(address to,uint256 id) public {
+        require(msg.sender == to,"you can't mint for others");
+        require(!passCheck(to,id),"you have got this sbt");
+        sbt.mint(to,id);
+        passList[to][id] = true;
     }
 }
