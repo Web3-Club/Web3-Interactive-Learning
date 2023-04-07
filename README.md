@@ -71,13 +71,7 @@
 [Web3Club](https://github.com/Web3-Club/Intro.)
     
 
-## ❤️ 项目成员
-
-
-[![contrib graph](https://contrib.rocks/image?repo=Web3-Club/Web3-Interactive-Learning)](https://github.com/Web3-Club/Web3-Interactive-Learning/graphs/contributors)
-
-
-### 🔨 成员分工
+## 🔨 成员分工
 
 - [烟波](https://github.com/yanboishere)
   
