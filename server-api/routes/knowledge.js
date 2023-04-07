@@ -10,21 +10,18 @@ const dialogs = [
               "type":"knowledge",
               "data":"Hi 非常欢迎您来开始进入Web3🌐的世界 🚀"
           },          
-       //chat 1
        
           {
               "id":2,
               "type":"knowledge",
               "data":"我们可以将过去短暂的互联网历史分为两个时期—Web 1.0 和 Web 2.0 🔗 "
           },
-       //chat 2   
        
           {
               "id":3,
               "type":"knowledge",
               "data":"比如 Web1.0时期(1990-2004)，这个时期的互联网的特点：只读。👀"
           },
-       //chat 3   
        
           {
               "id":4,
@@ -39,7 +36,6 @@ const dialogs = [
                           }
                       ]
                   },
-        //choice 4-A option，选择后都会转到 5 
    
                   {
                       "choice":"我有听说过！🧐",
@@ -52,8 +48,7 @@ const dialogs = [
                   },        
               ]
           },
-       //choice 4-B option
-       //最终 4-A 4-B option，选择后都会转到 5 
+        
           {
               "id":5,
               "type":"knowledge",
@@ -65,7 +60,6 @@ const dialogs = [
                   }
               ]
           },
-        //chat 5
         
           {
               "id":6,
@@ -80,7 +74,6 @@ const dialogs = [
                           }
                       ]
                   },
-       //chat 6
         
           {
               "id":7,
@@ -93,7 +86,6 @@ const dialogs = [
                   }
               ]
           },
-       //chat 7
          
           {
               "id":8,
@@ -108,7 +100,6 @@ const dialogs = [
                           }
                       ]
                   },
-        //choice 8-A option， 选择后都会转到 9
            
                   {
                       "choice":"💻 那Web2.0又是什么呢？",
@@ -119,7 +110,6 @@ const dialogs = [
                           }
                       ]
                   },
-          //choice 8-B option， 选择后都会转到 9
                                             
           {
               "id":9,
@@ -132,7 +122,6 @@ const dialogs = [
                   }
               ]
           },
-          //chat 9
           
           {
               "id":10,
@@ -145,7 +134,6 @@ const dialogs = [
                   }
               ]
           },
-          //chat 10
           
           {
               "id":11,
@@ -158,7 +146,6 @@ const dialogs = [
                   }
               ]
           },
-          //chat 11
             
           {
               "id":12,
@@ -171,7 +158,7 @@ const dialogs = [
                   }
               ] 
           },
-          //chat 12
+                
           {
               "id":13,
               "type":"image",
@@ -183,7 +170,6 @@ const dialogs = [
                   }
               ] 
           },
-          //image 13 需后续修改
           
          
          
