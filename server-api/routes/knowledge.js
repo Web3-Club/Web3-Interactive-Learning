@@ -53,7 +53,6 @@ const dialogs = [{"id":1,"title":"Web3介绍","dialog":[{"id":1,"type":"knowledg
                             }
                         ]
                     },
-                      
                     {
                         "choice":"我有听说过！🧐",
                         "path":[
@@ -253,7 +252,7 @@ const dialogs = [{"id":1,"title":"Web3介绍","dialog":[{"id":1,"type":"knowledg
                         ]
                     }
                 ]
-            },
+             },
               
              {
                 "id":17,
