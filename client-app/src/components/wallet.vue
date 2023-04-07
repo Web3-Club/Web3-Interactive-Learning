@@ -1,11 +1,14 @@
 <script>
 import {ethers} from 'ethers'
+import scoreAdd from '../../deployments/dev/Web3ClubScore.json'
+import scoreAbi from '../../deployments/abi/Web3ClubScore.json'
 
 export default {
     data(){
       return {
         provider: null,
         account: null,
+
       }
     },
     methods:{
@@ -19,6 +22,14 @@ export default {
           return
         }
         this.account = accounts[0]
+        this.signer = this.provider.getSigner()
+        this.initContract();
+      },
+      mint: async function(){
+        await (await this.Score.mint(this.account,0)).wait();
+      },
+      initContract(){
+        this.Score = new ethers.Contract(scoreAdd.address,scoreAbi,this.signer);
       }
     },
     async created(){
@@ -32,6 +43,7 @@ export default {
     <div v-if="account">{{  account }}</div>
     <el-button v-if="!account" @click="connect">连接钱包</el-button>
     <el-button v-if="account"  @click="disconnect">断开连接</el-button>
+    <el-button v-if="account"  @click="mint">Mint</el-button>
 </div>
 </template>
 
