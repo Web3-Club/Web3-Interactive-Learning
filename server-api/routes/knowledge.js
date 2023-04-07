@@ -160,42 +160,7 @@ const dialogs = [
           },
           //chat 12
           
-          {
-              "id":10,
-              "type":"choices",
-              "data":[
-                  {
-                      "choice":"能够理解",
-                      "path":[
-                          {
-                              "from":null,
-                              "to":15
-                          }
-                      ]
-                  },
-                  {
-                      "choice":"还不是很明白，可以再简单点说明",
-                      "path":[
-                          {
-                              "from":6,
-                              "to":11
-                          },
-                          {
-                              "from":7,
-                              "to":12
-                          },
-                          {
-                              "from":8,
-                              "to":13
-                          },
-                          {
-                              "from":9,
-                              "to":14
-                          }
-                      ]
-                  }
-              ]
-          },
+         
           {
               "id":11,
               "type":"knowledge",
