@@ -1,0 +1,6 @@
+[
+  "constructor(address)",
+  "function mint(address,uint256)",
+  "function passCheck(address,uint256) view returns (bool)",
+  "function passList(address,uint256) view returns (bool)"
+]

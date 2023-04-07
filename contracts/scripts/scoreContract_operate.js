@@ -2,7 +2,7 @@ const { BigNumber } = require("ethers");
 const hre = require("hardhat");
 
 async function main(){
-   
+    
 }
 
 main().catch((error)=>{
