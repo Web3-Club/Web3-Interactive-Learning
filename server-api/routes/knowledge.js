@@ -612,7 +612,53 @@ const dialogs = [{"id":1,"title":"Web3介绍","dialog":[{"id":1,"type":"knowledg
                     
                 ]
             },
+            {
+                "id":38,
+                "type":"knowledge",
+                "data":"是的，接着迎来了Web2.0时代。🎉",
+                "path":[
+                    {
+                        "from":8,
+                        "to":9
+                    }
+                ]
+            },
             
+            {
+                "id":39,
+                "type":"knowledge",
+                "data":"是的，接着迎来了Web2.0时代。🎉",
+                "path":[
+                    {
+                        "from":8,
+                        "to":9
+                    }
+                ]
+            },
+            
+            {
+                "id":40,
+                "type":"knowledge",
+                "data":"是的，接着迎来了Web2.0时代。🎉",
+                "path":[
+                    {
+                        "from":8,
+                        "to":9
+                    }
+                ]
+            },
+            
+            {
+                "id":41,
+                "type":"knowledge",
+                "data":"是的，接着迎来了Web2.0时代。🎉",
+                "path":[
+                    {
+                        "from":8,
+                        "to":9
+                    }
+                ]
+            },
             
             
             
