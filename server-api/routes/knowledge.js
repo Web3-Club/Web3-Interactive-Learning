@@ -49,21 +49,18 @@ const dialogs = [
                       "choice":"🕸️ 没用过Web1.0，不是很了解......", 
                       "path":[
                           {
-                              "from":4,
+                              "from":none,
                               "to":5
                           }
                       ]
                   },
-          {
-              "id":5,
-              "type":"choices",
-              "data":[
+                    
                   {
                       "choice":"我有听说过！🧐",
                       "path":[
                           {
-                              "from":5,
-                              "to":6
+                              "from":none,
+                              "to":5
                           }
                       ]
                   },        
@@ -71,13 +68,13 @@ const dialogs = [
           },
         
           {
-              "id":6,
+              "id":5,
               "type":"knowledge",
               "data":"Web1.0主要是由公司拥有的静态网站，用户之间的互动几乎为零 ❌",
               "path":[
                   {
-                      "from":6,
-                      "to":7
+                      "from":5,
+                      "to":6
                   }
               ]
           },
@@ -104,7 +101,7 @@ const dialogs = [
                       "choice":"😢 还蛮遗憾的。",  
                       "path":[
                           {
-                              "from":7,
+                              "from":none,
                               "to":8
                           }
                       ]
@@ -114,7 +111,7 @@ const dialogs = [
                       "choice":"💻 那Web2.0又是什么呢？",
                       "path":[
                           {
-                              "from":7,
+                              "from":none,
                               "to":8
                           }
                       ]
@@ -189,95 +186,103 @@ const dialogs = [
                       "choice":"🌐 有什么应用是Web2.0的呢？", 
                       "path":[
                           {
-                              "from":13,
-                              "to":15
+                              "from":none,
+                              "to":14
                           }
                       ]
                   },
            
           {
-              "id":14,
-              "type":"choices",
-              "data":[
+              
                   {
                       "choice":"🤩 和我理解的一样！", 
                       "path":[
                           {
-                              "from":14,
-                              "to":1
+                              "from":none,
+                              "to":17
                           }
                       ]
                   },
           {
-              "id":15,
+              "id":14,
               "type":"knowledge",
               "data":"📱社交网络：如WeChat、QQ等。",
+              "path":[
+                  {
+                      "from":14,
+                      "to":15
+                  }
+              ] 
+          },
+                
+          {
+              "id":15,
+              "type":"knowledge",
+              "data":"📹视频分享：如B站、抖音等。",
               "path":[
                   {
                       "from":15,
                       "to":16
                   }
               ] 
-          },
-                
-          {
-              "id":16,
-              "type":"knowledge",
-              "data":"📹视频分享：如B站、抖音等。",
-              "path":[
-                  {
-                      "from":16,
-                      "to":17
-                  }
-              ] 
           },  
                  
           {
-              "id":17,
+              "id":16,
               "type":"choices",
               "data":[
                   {
                       "choice":"💡 这些我都在用的！", 
                       "path":[
                           {
-                              "from":14,
-                              "to":1
+                              "from":none,
+                              "to":17
                           }
                       ]
                   },
-           {
-              "id":18,
-              "type":"choices",
-              "data":[
+                
                   {
                       "choice":"🚀 后来呢？", 
                       "path":[
                           {
-                              "from":18,
-                              "to":19
+                              "from":none,
+                              "to":17
                           }
                       ]
                   },
+            
+            
            {
-              "id":19,
+              "id":17,
+              "type":"knowledge",
+              "data":"到了Web 3.0，用户对于个人数据有了更多的控制权和选择权🔐🔀。",
+              "path":[
+                  {
+                      "from":17,
+                      "to":20
+                  }
+              ] 
+           },
+           {
+              "id":18,
               "type":"image",
               "data":"https://ethereum.org/static/54eef2049c233f9868af91546a07b2c7/00d43/web3.png",
               "path":[
                   {
-                      "from":16,
-                      "to":17
+                      "from":18,
+                      "to":20
                   }
               ] 
           },  
                 
           {
-              "id":20,
+              "id"19:,
               "type":"knowledge",
               "data":"Web 3.0：能读🔍 - 能写💬 - 能拥有🤝。它的核心思想有以下：",
               "path":[
                   {
-                      "from":16,
-                      "to":17
+                      "from":19,
+                      "to":20
                   }
               ] 
           },  
