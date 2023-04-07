@@ -477,7 +477,62 @@ const dialogs = [{"id":1,"title":"Web3介绍","dialog":[{"id":1,"type":"knowledg
                      },
                  ] 
             },
-            
+            {
+                "id":31,
+                "type":"knowledge",
+                "data":"Web3 很重要，除此以外，最想了解的是?",
+                "path":[
+                    {
+                        "from":31,
+                        "to":32
+                    }
+                ] 
+            },
+            {
+                "id":32,
+                "type":"choices",
+                "data":[
+                    {
+                        "choice":"所有权", 
+                        "path":[
+                            {
+                                "from":"none",
+                                "to":33
+                            }
+                        ]
+                    },
+                  
+                    {
+                        "choice":"抗审查", 
+                        "path":[
+                            {
+                                "from":"none",
+                                "to":34
+                            }
+                        ]
+                    }
+                            
+                    {
+                        "choice":"去中心化自治组织 (DAO)", 
+                        "path":[
+                            {
+                                "from":"none",
+                                "to":35
+                            }
+                        ]
+                    }
+                    
+                    {
+                        "choice":"身份", 
+                        "path":[
+                            {
+                                "from":"none",
+                                "to":36
+                            }
+                        ]
+                    }
+                ]
+            },
             
             
         ]
