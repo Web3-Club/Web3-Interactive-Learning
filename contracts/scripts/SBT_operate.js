@@ -8,7 +8,7 @@ async function main(){
 
     const web3clubscore = await hre.ethers.getContractAt("Web3ClubScore","0x4C48AC2C01aD33638C0F354A7Deb2C0FBb689048");
 
-    // await (await web3club1155.setScoreContract(web3clubscore.address)).wait();
+    await (await web3club1155.setScoreContract(web3clubscore.address)).wait();
     // await (await web3club1155.setScoreContract(account.address)).wait();
     // console.log(await web3club1155.scoreContract());
 
