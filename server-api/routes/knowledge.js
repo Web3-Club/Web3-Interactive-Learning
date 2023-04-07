@@ -6,89 +6,66 @@ const dialogs = [
           {
               "id":1,
               "type":"knowledge",
-              "data":"Hi 欢迎开始进入Web3的世界"
+              "data":"Hi 非常欢迎您来开始进入Web3🌐的世界 🚀"
           },
           {
               "id":2,
               "type":"knowledge",
-              "data":"我们可以将过去短暂的互联网历史分为两个时期—Web 1.0 和 Web 2.0 🔗"
+              "data":"我们可以将过去短暂的互联网历史分为两个时期—Web 1.0 和 Web 2.0 🔗 "
           },
           {
               "id":3,
               "type":"knowledge",
-              "data":"Web1.0时期(1990-2004)，特点：只读。👀"
+              "data":"比如 Web1.0时期(1990-2004)，这个时期的互联网的特点：只读。👀"
           },
           {
               "id":4,
-              "type":"knowledge",
-              "data":"Web 3.0：能读 - 能写 - 能拥有. 它的核心思想有以下："
-          },
-          {
-              "id":5,
               "type":"choices",
               "data":[
                   {
-                      "choice":"去中心化",
+                      "choice":"🕸️ 没用过Web1.0，不是很了解......", 
                       "path":[
                           {
-                              "from":null,
-                              "to":6
+                              "from":3,
+                              "to":4
                           }
                       ]
                   },
                   {
-                      "choice":"无需许可",
+                      "choice":"我有听说过！🧐",
                       "path":[
                           {
-                              "from":null,
-                              "to":7
+                              "from":4,
+                              "to":5
                           }
                       ]
                   },
+              ]
+          },
+          {
+              "id":5,
+              "type":"knowledge",
+              "data":"Web1.0主要是由公司拥有的静态网站，用户之间的互动几乎为零 ❌",
+              "path":[
                   {
-                      "choice":"具有原生支付功能",
-                      "path":[
-                          {
-                              "from":null,
-                              "to":8
-                          }
-                      ]
-                  },
-                  {
-                      "choice":"无需信任",
-                      "path":[
-                          {
-                              "from":null,
-                              "to":9
-                          }
-                      ]
+                      "from":5,
+                      "to":6
                   }
               ]
           },
           {
               "id":6,
               "type":"knowledge",
-              "data":"大部分互联网不是由中心化实体控制和拥有的，而是由构建者和用户分配所有权。",
+              "data":"个人很少创造内容，导致它被称为只读网络。🚫🗣️",
               "path":[
                   {
-                      "from":null,
-                      "to":10
+                      "from":6,
+                      "to":7
                   }
               ]
           },
           {
               "id":7,
-              "type":"knowledge",
-              "data":"每个人都有参与 Web3 的平等权限，没有人被排除在外。",
-              "path":[
-                  {
-                      "from":null,
-                      "to":10
-                  }
-              ]
-          },
-          {
-              "id":8,
               "type":"knowledge",
               "data":"它使用加密货币进行线上消费和汇款，而不是依赖传统银行或第三方支付机构过时的基础设施。",
               "path":[
@@ -99,7 +76,7 @@ const dialogs = [
               ]
           },
           {
-              "id":9,
+              "id":8,
               "type":"knowledge",
               "data":"它通过激励措施和经济机制运转，而不是依赖受信任的第三方。",
               "path":[
