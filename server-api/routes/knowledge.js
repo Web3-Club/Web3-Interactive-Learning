@@ -171,6 +171,8 @@ const dialogs = [
                   }
               ] 
           },
+          //chat 12
+          
           {
               "id":13,
               "type":"knowledge",
@@ -182,6 +184,8 @@ const dialogs = [
                   }
               ]
           },
+          //chat 13
+         
           {
               "id":13,
               "type":"knowledge",
