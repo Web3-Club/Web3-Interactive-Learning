@@ -1,0 +1,23 @@
+version: "3.9"
+services:
+  client-app:
+    # image: client-app
+    build: "./client-app"
+    # ports:
+    #   - "8080:8080"
+  server-api:
+    # image: server-api
+    build: "./server-api"
+    # ports:
+    #   - "3000:3000"
+    
+  portal:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+    volumes:
+      - "./portal.conf:/etc/nginx/conf.d/default.conf"
+    depends_on:
+      - client-app
+      - server-api
+    
