@@ -65,6 +65,7 @@ const dialogs = [
               ]
           },
         //chat 5
+        
           {
               "id":6,
               "type":"choices",
@@ -78,6 +79,9 @@ const dialogs = [
                           }
                       ]
                   },
+                  
+        //chat 6
+        
           {
               "id":7,
               "type":"knowledge",
@@ -89,6 +93,8 @@ const dialogs = [
                   }
               ]
           },
+         //chat 7
+         
           {
               "id":8,
               "type":"choices",
@@ -102,6 +108,7 @@ const dialogs = [
                           }
                       ]
                   },
+            //choice 8-A 选择后都会转到 9
                   {
                       "choice":"我有听说过！🧐",
                       "path":[
@@ -111,7 +118,7 @@ const dialogs = [
                           }
                       ]
                   },
-                
+            //choice 8-B 选择后都会转到 9
                 
                 
              
