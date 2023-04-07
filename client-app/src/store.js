@@ -14,6 +14,8 @@ const store = new Vuex.Store({
         briefs : [],
         selectedBrief:{},
         currentIndex:0,
+        isEnd : false,
+        isSubmitted: false
     },
     mutations: {
         INIT_DATA (state) {
@@ -29,6 +31,8 @@ const store = new Vuex.Store({
           console.log("index:",index)
           const id = state.briefs[index].id
           state.currentIndex = index
+          state.isEnd = false
+          state.isSubmitted = false
           axios.get(`/api/dialog/${id}`)
             .then(response => { 
               console.log("SELECT_DIALOG response data:", response.data)
@@ -36,7 +40,13 @@ const store = new Vuex.Store({
               state.dialog = []
               state.dialog = response.data
             })
-        } 
+        },
+        CHANGE_IS_END (state, isEnd) {
+            state.isEnd = isEnd
+        },
+        CHANGE_IS_SUBMITTED (state, isSubmitted) {
+          state.isSubmitted = isSubmitted
+      }
     }
 });
 

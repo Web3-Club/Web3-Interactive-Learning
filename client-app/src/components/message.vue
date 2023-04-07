@@ -3,18 +3,20 @@ export default {
     data(){
       return {
         currentDialogData:[],
-        dialogGap: 400,  //动画效果时间
+        dialogGap: 1000,  //动画效果时间
         displayTicker: null,
         lastDialogTime: null,
         options:null,
         from: null, 
         to: null,
         fromId:0,
-        toId:1,
-        isEnd: false
+        toId:1
       }
     },
     computed: {
+      isEnd(){
+        return this.$store.state.isEnd
+      },
       dialog() {
             return this.$store.state.dialog
         },
@@ -29,7 +31,8 @@ export default {
       displayDialog(){
         // console.log("displayDialog:", new Date().getTime()-this.lastDialogTime)
         // console.log("this.dialog:", this.dialog)
-
+        
+        
         if(this.isEnd){
           clearInterval(this.displayTicker)
           return
@@ -39,7 +42,7 @@ export default {
           return
         }
         
-        console.log("this.dialogMap:", this.dialogMap)
+        // console.log("this.dialogMap:", this.dialogMap)
         const dialogItem = this.dialogMap.get(this.toId)
         if(!dialogItem){
           this.stopTicker()
@@ -55,7 +58,8 @@ export default {
         }
         const nextItem = this.dialogMap.get(this.toId)
         if(!nextItem){
-          this.isEnd = true
+          this.$store.dispatch("CHANGE_IS_END", true)
+          console.log("isEnd:", this.isEnd)
         }
         if(dialogItem?.to){
           this.toId = dialogItem?.to
@@ -91,7 +95,7 @@ export default {
         this.resumeTicker()
       },
       startTicker(){
-        this.isEnd = false
+        this.$store.dispatch("CHANGE_IS_END",false)
         this.fromId = 0
         this.toId = 1
         this.from = null
@@ -136,11 +140,18 @@ export default {
         <li v-for="(item, index) in currentDialogData" v-bind:key="index">
             <div class="main">
               <div v-if="item.type == 'choices'" class="choices">
-                <!-- <div class="text">{{ options }}</div> -->
                   <el-button v-for="(citem, cindex) in item.data" v-bind:key="cindex" 
                     type="primary" plain @click="chooseOption(item, cindex)">{{citem.choice}}</el-button>
               </div>
-              <div v-else :class="item.choosed ? 'choosed-text' : 'text'">{{ item.data }}</div>
+              <div v-else :class="item.choosed ? 'choosed-text' : 'text'">
+                <div v-if="item.type == 'image'">
+                  <img :src="item.data" />
+                </div>
+                <div v-else>
+                  {{ item.data }}
+                </div>
+              
+              </div>
             </div>
           </li>
         </transition-group>
@@ -168,6 +179,11 @@ export default {
         list-style-type: none;
     }
 
+    img {
+      margin-top: 8px;
+      width: 400px;
+      height: 200px;
+    }
     
     .choosed-text{
       background-color:  #b3d8ff !important;

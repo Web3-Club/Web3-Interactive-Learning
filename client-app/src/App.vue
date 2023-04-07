@@ -7,7 +7,10 @@
         <card></card>
         <list></list>
     </div>
-    <div class="main">
+    <div v-if="isEnd">
+      <questionnaire></questionnaire>
+    </div>
+    <div v-else class="main">
         <message></message>
         <!-- <texts></texts> -->
     </div>
@@ -20,6 +23,7 @@ import Card from './components/card';
 import List from './components/list';
 import Message from './components/message';
 import Wallet from './components/wallet';
+import Questionnaire from './components/questionnaire';
 
 export default {
     name: 'App',
@@ -27,10 +31,16 @@ export default {
         Card,
         List,
         Message,
-        Wallet
+        Wallet,
+        Questionnaire
     },
     created() {
         this.$store.dispatch("INIT_DATA")
+    },
+    computed: {
+      isEnd(){
+        return this.$store.state.isEnd
+      },
     }
 
 }
