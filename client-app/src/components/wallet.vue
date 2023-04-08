@@ -15,8 +15,9 @@ export default {
         //图片拉伸相关
         fits: ['fill', 'contain', 'cover', 'none', 'scale-down'],
         //图片url
-        url: 'https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg'
-      }
+        url: 'https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg',
+        loading: true
+      };
     },
     computed:{
       isSubmitted(){
