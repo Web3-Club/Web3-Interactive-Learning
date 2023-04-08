@@ -4,7 +4,8 @@ export default {
     data(){
       return {
         questions:[],
-        answers : ""
+        answers : "",
+        score : 0
       }
     },
     computed: {
@@ -16,8 +17,14 @@ export default {
       }
     },
     methods: {
-       sumbit(){
-          this.$store.dispatch('CHANGE_IS_SUBMITTED', true)
+       async sumbit(){
+        const response = await axios.post(`/api/dialog/test/check`,{
+          dialogId: this.dialogId,
+          answers: this.answers 
+        })
+        console.log("submit:", response.data)
+        this.score = response.data
+        this.$store.dispatch('CHANGE_IS_SUBMITTED', true)
        }
     },
     created(){
@@ -35,7 +42,7 @@ export default {
   <div> 
     <div v-if="isSubmitted" style="display: flex; flex-direction: row;justify-content: center; align-items: center;margin-top: 250px;">
       <h1>
-        你的得分: 100分 
+        你的得分: {{this.score}}分 
       </h1>
     </div>
     <div v-else>
