@@ -2,6 +2,9 @@
 import {ethers} from 'ethers'
 import scoreAdd from '../../deployments/dev/Web3ClubScore.json'
 import scoreAbi from '../../deployments/abi/Web3ClubScore.json'
+
+import sbtAdd from '../../deployments/dev/Web3ClubSBT1155.json'
+import sbtAbi from '../../deployments/abi/Web3ClubSBT1155.json'
 // import { type } from 'os';
 
 export default {
@@ -41,21 +44,32 @@ export default {
           return
         }
         //调用mint
-        // await (await this.Score.mint(this.account,1)).wait(); //======为测试，先不执行======
-        this.open2();
+        await (await this.Score.mint(this.account,3)).wait();
+        this.open(0);
       },
       //初始化合约
       initContract(){
         this.Score = new ethers.Contract(scoreAdd.address,scoreAbi,this.signer);
+        this.SBT = new ethers.Contract(sbtAdd.address,sbtAbi,this.signer);
       },
-      //消息弹窗
-      open2() {
+      //获得sbt的json地址
+      async getSBTaddress(id){
+        const jsonAddress = await this.SBT.soulURI(id);
+        return jsonAddress;
+      },
+      //获得sbt图片地址
+      getSBTgraphAddress(){
+        return "https://i.ibb.co/2W5KYsL/seen.png";
+      },
+      //html消息弹窗
+      async open(id) {
         this.$notify({
-          title: '提示',
-          message: '这是一条不会自动关闭的消息',
-          duration: 0
+          title: '恭喜你获得了SBT',
+          dangerouslyUseHTMLString: true,
+          message: `<img src=${this.getSBTgraphAddress()} alt="Aleq" width="200" height="185"/>`//${this.getSBTaddress(0)}
+          //`<img src=${this.url} alt="Aleq" width="200" height="185"/>`
         });
-      }
+      } 
     },
     async created(){
       
@@ -70,14 +84,6 @@ export default {
     <el-button v-if="account"  @click="disconnect">断开连接</el-button>
     <!-- && isSubmitted -->
     <el-button v-if="account"  @click="mint">Mint</el-button>
-    <!-- 图片 -->
-    <div class="block" v-for="fit in fits" :key="fit">
-      <span class="demonstration">{{ fit }}</span>
-      <el-image
-        style="width: 100px; height: 100px"
-        :src="url"
-        :fit="fit"></el-image>
-    </div>
 </div>
 </template>
 
