@@ -50,7 +50,7 @@
             {
                 "id":5,
                 "type":"image",
-                "data":"https://i.ibb.co/VMg3sXP/image.png",
+                "data":"https://i.ibb.co/t24PSWS/spaces-0a-Nwg-Qq-VZl-J4icl-FLU5-C-uploads-git-blob-1cb9a96c9060a62ed5d34230cdd06aaabaab4269-01.jpg",
                 "path":[
                     {
                         "from":5,
