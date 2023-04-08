@@ -1,4 +1,4 @@
-# vue-chats
+# Web3-Interactive-Learning
 
 ## Project setup
 ```
