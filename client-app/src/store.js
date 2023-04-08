@@ -15,7 +15,8 @@ const store = new Vuex.Store({
         selectedBrief:{},
         currentIndex:0,
         isEnd : false,
-        isSubmitted: false
+        isSubmitted: false,
+        loading: false
     },
     mutations: {
         INIT_DATA (state) {
@@ -46,7 +47,10 @@ const store = new Vuex.Store({
         },
         CHANGE_IS_SUBMITTED (state, isSubmitted) {
           state.isSubmitted = isSubmitted
-      }
+        },
+        CHANGE_LOADING (state, loading){
+          state.loading = loading
+        }
     }
 });
 

@@ -1,8 +1,10 @@
 <template>
-<div id="app">
+<div id="app" v-loading="loading">
   <div>
     <wallet></wallet>
   </div>
+ 
+
     <div class="sidebar">
         <card></card>
         <list></list>
@@ -40,7 +42,9 @@ export default {
     computed: {
       isEnd(){
         return this.$store.state.isEnd
-      },
+      },loading(){
+        return this.$store.state.loading
+      }
     }
 
 }

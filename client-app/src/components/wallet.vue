@@ -21,7 +21,8 @@ export default {
     computed:{
       isSubmitted(){
         return this.$store.state.isSubmitted
-      }
+      },
+
     },
     methods:{
       disconnect(){
@@ -43,8 +44,10 @@ export default {
         if(network.chainId != "534353"){
           return
         }
+        this.$store.dispatch('CHANGE_LOADING', true)
         //调用mint
         await (await this.Score.mint(this.account,3)).wait();
+        this.$store.dispatch('CHANGE_LOADING', false)
         this.open(0);
       },
       //初始化合约
@@ -83,7 +86,7 @@ export default {
     <el-button v-if="!account" @click="connect">连接钱包</el-button>
     <el-button v-if="account"  @click="disconnect">断开连接</el-button>
     <!-- && isSubmitted -->
-    <el-button v-if="account"  @click="mint">Mint</el-button>
+    <el-button v-if="account && isSubmitted"  @click="mint">Mint</el-button>
 </div>
 </template>
 
