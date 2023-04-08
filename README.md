@@ -112,6 +112,6 @@ If you have any questions about licence or copyright, please read the [LICENCE](
 
 Built by China Web3-Club contributors with heart.<br>
 Copyright © 2023  China [Web3-Club](https://github.com/Web3-Club)｜中国Web3社区 <br>
-Web3 Knowledge part copyright ©  2013-2023 ethereum.org
+Web3 Knowledge part copyright   ©  2013-2023 ethereum.org
 
 ALL RIGHT RESERVED
