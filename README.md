@@ -75,7 +75,7 @@
 ![4201680931174_ pic](https://user-images.githubusercontent.com/76860915/230707111-e37e3c7b-9b80-4ba9-9515-030cb089091a.jpg)
 
 ## 展示视频
-
+[Bilibili](https://www.bilibili.com/video/BV1PM4y117Ab/)
 
 ## 关于我们
 [Web3Club](https://github.com/Web3-Club/Intro.)
