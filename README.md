@@ -57,7 +57,8 @@
 ## ✅ 效果图展示
 ### **（实际界面 以最终提交项目时为准）**
 
-## 🔧 交互逻辑设计
+### 🔧 交互逻辑设计
+![4331680932343_ pic](https://user-images.githubusercontent.com/76860915/230705795-71ade625-daa8-496a-98b3-e8fd5976db9b.jpg)
 
 
 ### 💬 聊天交互界面
@@ -79,9 +80,12 @@
 
 ## 关于我们
 [Web3Club](https://github.com/Web3-Club/Intro.)
-    
 
-## 🔨 成员分工
+## ❤️ 项目成员
+[![contrib graph](https://contrib.rocks/image?repo=Web3-Club/Web3-Interactive-Learning)](https://github.com/Web3-Club/Web3-Interactive-Learning/graphs/contributors)
+
+
+### 🔨 成员分工
 
 - [烟波](https://github.com/yanboishere)
   
