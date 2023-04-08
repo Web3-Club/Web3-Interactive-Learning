@@ -62,7 +62,9 @@
 
 
 ### 💬 聊天交互界面
-![2811680865936_ pic](https://user-images.githubusercontent.com/76860915/230699267-d9867ea8-9936-4152-a4f1-34f7997aabc9.jpg)
+![4151680928311_ pic](https://user-images.githubusercontent.com/76860915/230707099-ac3c45b0-6774-403a-b0b3-0e8ea9488739.jpg)
+![4161680928357_ pic](https://user-images.githubusercontent.com/76860915/230707103-bc41f8cd-5b9a-474f-bb3b-c5b2ad576334.jpg)
+![4171680928376_ pic](https://user-images.githubusercontent.com/76860915/230707108-409c75fe-db98-4867-9ca7-3663cade9848.jpg)
 
 
 <br>
@@ -70,8 +72,7 @@
 <br>
 
 ### 🌆 NFT分发界面
-
-<img alt="1261680685917_ pic" height="518" src="https://user-images.githubusercontent.com/76860915/230056557-88d14e30-cb2b-44d3-b036-f12b725eea86.jpg" width="400"/>
+![4201680931174_ pic](https://user-images.githubusercontent.com/76860915/230707111-e37e3c7b-9b80-4ba9-9515-030cb089091a.jpg)
 
 
 ## 项目进度
