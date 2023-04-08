@@ -15,8 +15,9 @@ export default {
         //图片拉伸相关
         fits: ['fill', 'contain', 'cover', 'none', 'scale-down'],
         //图片url
-        url: 'https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg'
-      }
+        url: 'https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg',
+        loading: true
+      };
     },
     computed:{
       isSubmitted(){
@@ -44,7 +45,7 @@ export default {
           return
         }
         //调用mint
-        await (await this.Score.mint(this.account,3)).wait();
+        await (await this.Score.mint(this.account,0)).wait();
         this.open(0);
       },
       //初始化合约
@@ -84,6 +85,25 @@ export default {
     <el-button v-if="account"  @click="disconnect">断开连接</el-button>
     <!-- && isSubmitted -->
     <el-button v-if="account"  @click="mint">Mint</el-button>
+    <el-table
+    v-loading="loading"
+    :data="tableData"
+    style="width: 100%">
+    <el-table-column
+      prop="date"
+      label="日期"
+      width="180">
+    </el-table-column>
+    <el-table-column
+      prop="name"
+      label="姓名"
+      width="180">
+    </el-table-column>
+    <el-table-column
+      prop="address"
+      label="地址">
+    </el-table-column>
+  </el-table>x
 </div>
 </template>
 
