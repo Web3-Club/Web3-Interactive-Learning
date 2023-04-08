@@ -15,6 +15,7 @@ router.get('/briefs', function (ctx, next) {
   ctx.body = getDialogBriefs()
 })
 
+//
 router.get('/:id', function (ctx, next) {
   const {id} = ctx.params
   console.log("id:", id)
@@ -23,6 +24,7 @@ router.get('/:id', function (ctx, next) {
   ctx.body = dialog
 })
 
+// 
 router.get('/test/:id', function (ctx, next) {
   const {id} = ctx.params
   console.log("id:", id)
@@ -31,12 +33,13 @@ router.get('/test/:id', function (ctx, next) {
   ctx.body = question
 })
 
-router.post('/test/submit/:id', function (ctx, next) {
-  const {id} = ctx.params
-  console.log("id:", id)
-  const dialog = getDialog(id)
-  console.log("dialog:", dialog)
-  ctx.body = dialog
+//检查分数
+router.post('/test/check', function (ctx, next) {
+  const {dialogId, answers} = ctx.request.body
+  console.log("dialogId:", dialogId, ",answers:", answers)
+  const score = checkAnswers(dialogId, answers)
+  console.log("score:", score)
+  return ctx.body = score
 })
 
 module.exports = router

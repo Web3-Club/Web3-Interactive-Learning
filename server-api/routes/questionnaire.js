@@ -41,9 +41,10 @@ const questions = [
   }
 ]
 
-const answers = [
+const answersTable = [
   {
     "id" : 1,
+    "dialogId":1,
     "questionId": 1,
     "answerList": [
       "Web3", "可读可写可拥有", "使用 Ethereum 登录", "NFTs"
@@ -53,19 +54,20 @@ const answers = [
 ]
 
 function checkAnswers(dialogId, answers){
-  const targets =  answers.filter(e => e.dialogId === parseInt(dialogId))
+  const targets =  answersTable.filter(e => e.dialogId === parseInt(dialogId))
   if(!targets){
     return 0
   }
-  const answer = targets[0] 
-  const correctCount = 0
-  answer.forEach( e,i => {  
-      if(e == answers[i]){
-        correctCount++
-      }
-   })
-
-   return parseInt(correctCount / answer.length)
+  console.log("targets:", targets)
+  const answer = targets[0].answerList
+  let correctCount = 0
+  for(let i=0; i < answer.length; i++){
+    if(answer[i] === answers[i]){
+      correctCount++
+    }
+  }
+  console.log("correctCount:", correctCount, ", answer:", answer)
+   return parseInt( 100 * correctCount / answer.length)
 }
 
 
