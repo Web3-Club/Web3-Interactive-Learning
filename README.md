@@ -98,7 +98,6 @@
   - 文档编辑
   - 后端（内容嵌入）
   - 问题及其交互特色设计
-  - Demo视频制作
  
 - [JiceJin](https://github.com/JiceJin)
   
@@ -113,6 +112,7 @@
   - 项目策划
   - 交互逻辑策划
   - 项目全栈测试
+  - Demo视频制作
 
 - [woHocooL](https://github.com/woHocooL)
  
