@@ -106,6 +106,8 @@
   
   - 前端开发
   - 智能合约开发
+    - SBT
+    - Score 
   - 测试
 
 - [Azleal](https://github.com/Azleal)
