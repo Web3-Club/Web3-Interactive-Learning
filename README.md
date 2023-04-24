@@ -56,6 +56,8 @@
 
    来确保 我们项目中最主要的特性：**互动性**
 
+   (详见 🔧 交互逻辑设计 示例）
+
 ## 项目部署合约(部署在Scroll Alpha Testnet)<br>
 完成考题后，学习网站颁发SBT：<br>
 **Web3ClubSBT：0x07f470F7793FeFb0F0602bAfC783023c81F5aE44** <br>
