@@ -6,7 +6,7 @@
 
 ## 语言
 
-中文｜[English]()
+中文｜[English](https://github.com/Web3-Club/Web3-Interactive-Learning/blob/main/README_en.md)
 
 ## Web3Club & Eth Beijing Hackathon 2023 活动作品
 
