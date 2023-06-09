@@ -3,6 +3,8 @@
 
 [![mit](https://img.shields.io/github/license/Web3-Club/Web3-Interactive-Learning?style=flat-square)](https://github.com/Web3-Club/Web3-Interactive-Learning/) [![GitHub stars](https://img.shields.io/github/stars/Web3-Club/Web3-Interactive-Learning.svg?style=social&label=Stars)](https://github.com/Web3-Club/Web3-Interactive-Learning) [![GitHub watchers](https://img.shields.io/github/watchers/Web3-Club/Web3-Interactive-Learning.svg?style=social&label=Watch)](https://github.com/Web3-Club/Blockchain-Developer-roadmap_Chinese)
 
+中文｜[English](https://github.com/Web3-Club/Web3-Interactive-Learning/blob/main/README_en.md)
+
 ## Web3Club & Eth Beijing Hackathon 2023 活动作品
 
 <img alt="主图" src="https://user-images.githubusercontent.com/76860915/229789325-103fd1d1-def6-4c96-88fa-46fb8f4b5762.png"/>
