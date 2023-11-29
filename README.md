@@ -150,7 +150,7 @@ If you have any questions about licence or copyright, please read the [LICENCE](
 ### [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
 
 Built by China Web3-Club [contributors](https://github.com/Web3-Club/Web3-Interactive-Learning/graphs/contributors?from=2023-03-26&to=2023-04-08&type=a) with heart.<br>
-Copyright © 2023  China [Web3-Club](https://github.com/Web3-Club)｜中国Web3社区 <br>
+Copyright © 2023  China [Web3-Club](https://github.com/Web3-Club) <br>
 Web3 Knowledge part copyright   ©  2013-2023 ethereum.org
 
 ALL RIGHT RESERVED
