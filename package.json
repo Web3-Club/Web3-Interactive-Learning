@@ -1,0 +1,16 @@
+{
+  "name": "web3-interactive-learning",
+  "version": "1.0.1",
+  "description": "Web3 interactive chat learning platform based on Ethereum.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Ethereum",
+    "Web3",
+    "Learning"
+  ],
+  "author": "Yanbo Wang",
+  "license": "ISC"
+}
