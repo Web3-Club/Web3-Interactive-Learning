@@ -2,7 +2,9 @@
   "name": "web3-interactive-learning",
   "version": "1.0.1",
   "description": "Web3 interactive chat learning platform based on Ethereum.",
-  "main": "index.js",
+  "main": ".dist/index.js",
+  "repository": {
+    "url":"https://github.com/Web3-Club/Web3-Interactive-Learning"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
